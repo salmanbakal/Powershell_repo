@@ -1,0 +1,1864 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20201005233308
+Username: LAPTOP-KCC94RI6\Salmaan
+RunAs User: LAPTOP-KCC94RI6\Salmaan
+Configuration Name: 
+Machine: LAPTOP-KCC94RI6 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 17248
+PSVersion: 5.1.18362.752
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.752
+BuildVersion: 10.0.18362.752
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Salmaan\OneDrive\Documents\PowerShell_transcript.LAPTOP-KCC94RI6.Yc1nEjy2.20201005233308.txt
+PS C:\Users\Salmaan> get-process -name Firefox | select-object*
+select-object* : The term 'select-object*' is not recognized as the name of a cmdlet, function, script file, or 
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try 
+again.
+At line:1 char:29
++ get-process -name Firefox | select-object*
++                             ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (select-object*:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+select-object* : The term 'select-object*' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the
+name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:29
++ get-process -name Firefox | select-object*
++                             ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (select-object*:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Salmaan> get-process -name Firefox | select-object *
+
+
+Name                       : firefox
+Id                         : 5072
+PriorityClass              : Idle
+FileVersion                : 81.0
+HandleCount                : 973
+WorkingSet                 : 621580288
+PagedMemorySize            : 924536832
+PrivateMemorySize          : 924536832
+VirtualMemorySize          : -95227904
+TotalProcessorTime         : 00:59:31.9843750
+SI                         : 1
+Handles                    : 973
+VM                         : 2207517962240
+WS                         : 621580288
+PM                         : 924536832
+NPM                        : 172040
+Path                       : C:\Users\Salmaan\AppData\Local\Mozilla Firefox\firefox.exe
+Company                    : Mozilla Corporation
+CPU                        : 3571.984375
+ProductVersion             : 81.0
+Description                : Firefox
+Product                    : Firefox
+__NounName                 : Process
+BasePriority               : 4
+ExitCode                   :
+HasExited                  : False
+ExitTime                   :
+Handle                     : 3148
+SafeHandle                 : Microsoft.Win32.SafeHandles.SafeProcessHandle
+MachineName                : .
+MainWindowHandle           : 0
+MainWindowTitle            :
+MainModule                 : System.Diagnostics.ProcessModule (firefox.exe)
+MaxWorkingSet              : 1413120
+MinWorkingSet              : 204800
+Modules                    : {System.Diagnostics.ProcessModule (firefox.exe), System.Diagnostics.ProcessModule (ntdll.dll), System.Diagnostics.ProcessModule
+                             (KERNEL32.DLL), System.Diagnostics.ProcessModule (KERNELBASE.dll)...}
+NonpagedSystemMemorySize   : 172040
+NonpagedSystemMemorySize64 : 172040
+PagedMemorySize64          : 924536832
+PagedSystemMemorySize      : 1501224
+PagedSystemMemorySize64    : 1501224
+PeakPagedMemorySize        : 968462336
+PeakPagedMemorySize64      : 968462336
+PeakWorkingSet             : 885743616
+PeakWorkingSet64           : 885743616
+PeakVirtualMemorySize      : 17088512
+PeakVirtualMemorySize64    : 2207630278656
+PriorityBoostEnabled       : True
+PrivateMemorySize64        : 924536832
+PrivilegedProcessorTime    : 00:09:13.2656250
+ProcessName                : firefox
+ProcessorAffinity          : 4095
+Responding                 : True
+SessionId                  : 1
+StartInfo                  : System.Diagnostics.ProcessStartInfo
+StartTime                  : 29-09-2020 23:00:08
+SynchronizingObject        :
+Threads                    : {5076, 14632, 1496, 8588...}
+UserProcessorTime          : 00:50:18.7187500
+VirtualMemorySize64        : 2207517962240
+EnableRaisingEvents        : False
+StandardInput              :
+StandardOutput             :
+StandardError              :
+WorkingSet64               : 621580288
+Site                       :
+Container                  :
+
+Name                       : firefox
+Id                         : 7892
+PriorityClass              : Normal
+FileVersion                : 81.0
+HandleCount                : 1138
+WorkingSet                 : 459280384
+PagedMemorySize            : 797646848
+PrivateMemorySize          : 797646848
+VirtualMemorySize          : -32075776
+TotalProcessorTime         : 01:19:56.1406250
+SI                         : 1
+Handles                    : 1138
+VM                         : 2207581114368
+WS                         : 459280384
+PM                         : 797646848
+NPM                        : 191096
+Path                       : C:\Users\Salmaan\AppData\Local\Mozilla Firefox\firefox.exe
+Company                    : Mozilla Corporation
+CPU                        : 4796.140625
+ProductVersion             : 81.0
+Description                : Firefox
+Product                    : Firefox
+__NounName                 : Process
+BasePriority               : 8
+ExitCode                   :
+HasExited                  : False
+ExitTime                   :
+Handle                     : 3112
+SafeHandle                 : Microsoft.Win32.SafeHandles.SafeProcessHandle
+MachineName                : .
+MainWindowHandle           : 0
+MainWindowTitle            :
+MainModule                 : System.Diagnostics.ProcessModule (firefox.exe)
+MaxWorkingSet              : 1413120
+MinWorkingSet              : 204800
+Modules                    : {System.Diagnostics.ProcessModule (firefox.exe), System.Diagnostics.ProcessModule (ntdll.dll), System.Diagnostics.ProcessModule
+                             (KERNEL32.DLL), System.Diagnostics.ProcessModule (KERNELBASE.dll)...}
+NonpagedSystemMemorySize   : 191096
+NonpagedSystemMemorySize64 : 191096
+PagedMemorySize64          : 797646848
+PagedSystemMemorySize      : 1650248
+PagedSystemMemorySize64    : 1650248
+PeakPagedMemorySize        : 1056534528
+PeakPagedMemorySize64      : 1056534528
+PeakWorkingSet             : 816361472
+PeakWorkingSet64           : 816361472
+PeakVirtualMemorySize      : 122011648
+PeakVirtualMemorySize64    : 2207735201792
+PriorityBoostEnabled       : True
+PrivateMemorySize64        : 797646848
+PrivilegedProcessorTime    : 00:14:13.5000000
+ProcessName                : firefox
+ProcessorAffinity          : 4095
+Responding                 : True
+SessionId                  : 1
+StartInfo                  : System.Diagnostics.ProcessStartInfo
+StartTime                  : 30-09-2020 0:34:07
+SynchronizingObject        :
+Threads                    : {11596, 9256, 12392, 2976...}
+UserProcessorTime          : 01:05:42.6406250
+VirtualMemorySize64        : 2207581114368
+EnableRaisingEvents        : False
+StandardInput              :
+StandardOutput             :
+StandardError              :
+WorkingSet64               : 459280384
+Site                       :
+Container                  :
+
+Name                       : firefox
+Id                         : 8372
+PriorityClass              : Normal
+FileVersion                : 81.0
+HandleCount                : 238
+WorkingSet                 : 332349440
+PagedMemorySize            : 22814720
+PrivateMemorySize          : 22814720
+VirtualMemorySize          : 901603328
+TotalProcessorTime         : 03:54:39.9062500
+SI                         : 1
+Handles                    : 238
+VM                         : 2204219826176
+WS                         : 332349440
+PM                         : 22814720
+NPM                        : 50280
+Path                       : C:\Users\Salmaan\AppData\Local\Mozilla Firefox\firefox.exe
+Company                    : Mozilla Corporation
+CPU                        : 14079.90625
+ProductVersion             : 81.0
+Description                : Firefox
+Product                    : Firefox
+__NounName                 : Process
+BasePriority               : 8
+ExitCode                   :
+HasExited                  : False
+ExitTime                   :
+Handle                     : 3360
+SafeHandle                 : Microsoft.Win32.SafeHandles.SafeProcessHandle
+MachineName                : .
+MainWindowHandle           : 0
+MainWindowTitle            :
+MainModule                 : System.Diagnostics.ProcessModule (firefox.exe)
+MaxWorkingSet              : 1413120
+MinWorkingSet              : 204800
+Modules                    : {System.Diagnostics.ProcessModule (firefox.exe), System.Diagnostics.ProcessModule (ntdll.dll), System.Diagnostics.ProcessModule
+                             (KERNEL32.DLL), System.Diagnostics.ProcessModule (KERNELBASE.dll)...}
+NonpagedSystemMemorySize   : 50280
+NonpagedSystemMemorySize64 : 50280
+PagedMemorySize64          : 22814720
+PagedSystemMemorySize      : 1656704
+PagedSystemMemorySize64    : 1656704
+PeakPagedMemorySize        : 148213760
+PeakPagedMemorySize64      : 148213760
+PeakWorkingSet             : 694206464
+PeakWorkingSet64           : 694206464
+PeakVirtualMemorySize      : 1092005888
+PeakVirtualMemorySize64    : 2204410228736
+PriorityBoostEnabled       : True
+PrivateMemorySize64        : 22814720
+PrivilegedProcessorTime    : 00:21:46.1875000
+ProcessName                : firefox
+ProcessorAffinity          : 4095
+Responding                 : True
+SessionId                  : 1
+StartInfo                  : System.Diagnostics.ProcessStartInfo
+StartTime                  : 29-09-2020 23:54:53
+SynchronizingObject        :
+Threads                    : {8132, 1916, 15924, 256...}
+UserProcessorTime          : 03:32:53.7187500
+VirtualMemorySize64        : 2204219826176
+EnableRaisingEvents        : False
+StandardInput              :
+StandardOutput             :
+StandardError              :
+WorkingSet64               : 332349440
+Site                       :
+Container                  :
+
+Name                       : firefox
+Id                         : 10500
+PriorityClass              : Normal
+FileVersion                : 81.0
+HandleCount                : 1372
+WorkingSet                 : 887369728
+PagedMemorySize            : 1396539392
+PrivateMemorySize          : 1396539392
+VirtualMemorySize          : -1117044736
+TotalProcessorTime         : 06:33:15.7031250
+SI                         : 1
+Handles                    : 1372
+VM                         : 2206496145408
+WS                         : 887369728
+PM                         : 1396539392
+NPM                        : 345184
+Path                       : C:\Users\Salmaan\AppData\Local\Mozilla Firefox\firefox.exe
+Company                    : Mozilla Corporation
+CPU                        : 23595.703125
+ProductVersion             : 81.0
+Description                : Firefox
+Product                    : Firefox
+__NounName                 : Process
+BasePriority               : 8
+ExitCode                   :
+HasExited                  : False
+ExitTime                   :
+Handle                     : 4000
+SafeHandle                 : Microsoft.Win32.SafeHandles.SafeProcessHandle
+MachineName                : .
+MainWindowHandle           : 0
+MainWindowTitle            :
+MainModule                 : System.Diagnostics.ProcessModule (firefox.exe)
+MaxWorkingSet              : 1413120
+MinWorkingSet              : 204800
+Modules                    : {System.Diagnostics.ProcessModule (firefox.exe), System.Diagnostics.ProcessModule (ntdll.dll), System.Diagnostics.ProcessModule
+                             (KERNEL32.DLL), System.Diagnostics.ProcessModule (KERNELBASE.dll)...}
+NonpagedSystemMemorySize   : 345184
+NonpagedSystemMemorySize64 : 345184
+PagedMemorySize64          : 1396539392
+PagedSystemMemorySize      : 3109368
+PagedSystemMemorySize64    : 3109368
+PeakPagedMemorySize        : 1435824128
+PeakPagedMemorySize64      : 1435824128
+PeakWorkingSet             : 1161580544
+PeakWorkingSet64           : 1161580544
+PeakVirtualMemorySize      : -809639936
+PeakVirtualMemorySize64    : 2206803550208
+PriorityBoostEnabled       : True
+PrivateMemorySize64        : 1396539392
+PrivilegedProcessorTime    : 01:23:20.2500000
+ProcessName                : firefox
+ProcessorAffinity          : 4095
+Responding                 : True
+SessionId                  : 1
+StartInfo                  : System.Diagnostics.ProcessStartInfo
+StartTime                  : 29-09-2020 22:58:57
+SynchronizingObject        :
+Threads                    : {10516, 10600, 10604, 10628...}
+UserProcessorTime          : 05:09:55.4531250
+VirtualMemorySize64        : 2206496145408
+EnableRaisingEvents        : False
+StandardInput              :
+StandardOutput             :
+StandardError              :
+WorkingSet64               : 887369728
+Site                       :
+Container                  :
+
+Name                       : firefox
+Id                         : 11076
+PriorityClass              : Normal
+FileVersion                : 81.0
+HandleCount                : 2706
+WorkingSet                 : 460591104
+PagedMemorySize            : 648515584
+PrivateMemorySize          : 648515584
+VirtualMemorySize          : 71745536
+TotalProcessorTime         : 08:21:27.6875000
+SI                         : 1
+Handles                    : 2706
+VM                         : 2207684935680
+WS                         : 460591104
+PM                         : 648515584
+NPM                        : 273288
+Path                       : C:\Users\Salmaan\AppData\Local\Mozilla Firefox\firefox.exe
+Company                    : Mozilla Corporation
+CPU                        : 30087.703125
+ProductVersion             : 81.0
+Description                : Firefox
+Product                    : Firefox
+__NounName                 : Process
+BasePriority               : 8
+ExitCode                   :
+HasExited                  : False
+ExitTime                   :
+Handle                     : 3864
+SafeHandle                 : Microsoft.Win32.SafeHandles.SafeProcessHandle
+MachineName                : .
+MainWindowHandle           : 10684048
+MainWindowTitle            : (174) Microsoft PowerShell for Beginners - Video 1 Learn PowerShell - YouTube - Mozilla Firefox
+MainModule                 : System.Diagnostics.ProcessModule (firefox.exe)
+MaxWorkingSet              : 464900096
+MinWorkingSet              : 463691776
+Modules                    : {System.Diagnostics.ProcessModule (firefox.exe), System.Diagnostics.ProcessModule (ntdll.dll), System.Diagnostics.ProcessModule
+                             (KERNEL32.DLL), System.Diagnostics.ProcessModule (KERNELBASE.dll)...}
+NonpagedSystemMemorySize   : 273288
+NonpagedSystemMemorySize64 : 273288
+PagedMemorySize64          : 648515584
+PagedSystemMemorySize      : 1985184
+PagedSystemMemorySize64    : 1985184
+PeakPagedMemorySize        : 873693184
+PeakPagedMemorySize64      : 873693184
+PeakWorkingSet             : 744042496
+PeakWorkingSet64           : 744042496
+PeakVirtualMemorySize      : -1580105728
+PeakVirtualMemorySize64    : 2223212953600
+PriorityBoostEnabled       : True
+PrivateMemorySize64        : 648515584
+PrivilegedProcessorTime    : 05:04:44.9062500
+ProcessName                : firefox
+ProcessorAffinity          : 4095
+Responding                 : True
+SessionId                  : 1
+StartInfo                  : System.Diagnostics.ProcessStartInfo
+StartTime                  : 29-09-2020 22:58:55
+SynchronizingObject        :
+Threads                    : {11080, 11236, 11244, 11248...}
+UserProcessorTime          : 03:16:42.8281250
+VirtualMemorySize64        : 2207684935680
+EnableRaisingEvents        : False
+StandardInput              :
+StandardOutput             :
+StandardError              :
+WorkingSet64               : 460591104
+Site                       :
+Container                  :
+
+Name                       : firefox
+Id                         : 12024
+PriorityClass              : Idle
+FileVersion                : 81.0
+HandleCount                : 917
+WorkingSet                 : 459018240
+PagedMemorySize            : 749694976
+PrivateMemorySize          : 749694976
+VirtualMemorySize          : -351174656
+TotalProcessorTime         : 01:17:21.0937500
+SI                         : 1
+Handles                    : 917
+VM                         : 2207262015488
+WS                         : 459018240
+PM                         : 749694976
+NPM                        : 169568
+Path                       : C:\Users\Salmaan\AppData\Local\Mozilla Firefox\firefox.exe
+Company                    : Mozilla Corporation
+CPU                        : 4641.09375
+ProductVersion             : 81.0
+Description                : Firefox
+Product                    : Firefox
+__NounName                 : Process
+BasePriority               : 4
+ExitCode                   :
+HasExited                  : False
+ExitTime                   :
+Handle                     : 3332
+SafeHandle                 : Microsoft.Win32.SafeHandles.SafeProcessHandle
+MachineName                : .
+MainWindowHandle           : 0
+MainWindowTitle            :
+MainModule                 : System.Diagnostics.ProcessModule (firefox.exe)
+MaxWorkingSet              : 1413120
+MinWorkingSet              : 204800
+Modules                    : {System.Diagnostics.ProcessModule (firefox.exe), System.Diagnostics.ProcessModule (ntdll.dll), System.Diagnostics.ProcessModule
+                             (KERNEL32.DLL), System.Diagnostics.ProcessModule (KERNELBASE.dll)...}
+NonpagedSystemMemorySize   : 169568
+NonpagedSystemMemorySize64 : 169568
+PagedMemorySize64          : 749694976
+PagedSystemMemorySize      : 1422448
+PagedSystemMemorySize64    : 1422448
+PeakPagedMemorySize        : 838684672
+PeakPagedMemorySize64      : 838684672
+PeakWorkingSet             : 697139200
+PeakWorkingSet64           : 697139200
+PeakVirtualMemorySize      : -258412544
+PeakVirtualMemorySize64    : 2207354777600
+PriorityBoostEnabled       : True
+PrivateMemorySize64        : 749694976
+PrivilegedProcessorTime    : 00:13:46.6718750
+ProcessName                : firefox
+ProcessorAffinity          : 4095
+Responding                 : True
+SessionId                  : 1
+StartInfo                  : System.Diagnostics.ProcessStartInfo
+StartTime                  : 29-09-2020 22:59:01
+SynchronizingObject        :
+Threads                    : {12028, 12084, 12096, 12100...}
+UserProcessorTime          : 01:03:34.4218750
+VirtualMemorySize64        : 2207262015488
+EnableRaisingEvents        : False
+StandardInput              :
+StandardOutput             :
+StandardError              :
+WorkingSet64               : 459018240
+Site                       :
+Container                  :
+
+Name                       : firefox
+Id                         : 12212
+PriorityClass              : Normal
+FileVersion                : 81.0
+HandleCount                : 537
+WorkingSet                 : 118353920
+PagedMemorySize            : 119222272
+PrivateMemorySize          : 119222272
+VirtualMemorySize          : -1576116224
+TotalProcessorTime         : 00:08:24.0468750
+SI                         : 1
+Handles                    : 537
+VM                         : 2206037073920
+WS                         : 118353920
+PM                         : 119222272
+NPM                        : 60904
+Path                       : C:\Users\Salmaan\AppData\Local\Mozilla Firefox\firefox.exe
+Company                    : Mozilla Corporation
+CPU                        : 504.046875
+ProductVersion             : 81.0
+Description                : Firefox
+Product                    : Firefox
+__NounName                 : Process
+BasePriority               : 8
+ExitCode                   :
+HasExited                  : False
+ExitTime                   :
+Handle                     : 4092
+SafeHandle                 : Microsoft.Win32.SafeHandles.SafeProcessHandle
+MachineName                : .
+MainWindowHandle           : 0
+MainWindowTitle            :
+MainModule                 : System.Diagnostics.ProcessModule (firefox.exe)
+MaxWorkingSet              : 1413120
+MinWorkingSet              : 204800
+Modules                    : {System.Diagnostics.ProcessModule (firefox.exe), System.Diagnostics.ProcessModule (ntdll.dll), System.Diagnostics.ProcessModule
+                             (KERNEL32.DLL), System.Diagnostics.ProcessModule (KERNELBASE.dll)...}
+NonpagedSystemMemorySize   : 60904
+NonpagedSystemMemorySize64 : 60904
+PagedMemorySize64          : 119222272
+PagedSystemMemorySize      : 709416
+PagedSystemMemorySize64    : 709416
+PeakPagedMemorySize        : 150716416
+PeakPagedMemorySize64      : 150716416
+PeakWorkingSet             : 131493888
+PeakWorkingSet64           : 131493888
+PeakVirtualMemorySize      : -1566375936
+PeakVirtualMemorySize64    : 2206046814208
+PriorityBoostEnabled       : True
+PrivateMemorySize64        : 119222272
+PrivilegedProcessorTime    : 00:01:52.4375000
+ProcessName                : firefox
+ProcessorAffinity          : 4095
+Responding                 : True
+SessionId                  : 1
+StartInfo                  : System.Diagnostics.ProcessStartInfo
+StartTime                  : 29-09-2020 22:59:04
+SynchronizingObject        :
+Threads                    : {12208, 7936, 11072, 11044...}
+UserProcessorTime          : 00:06:31.6093750
+VirtualMemorySize64        : 2206037073920
+EnableRaisingEvents        : False
+StandardInput              :
+StandardOutput             :
+StandardError              :
+WorkingSet64               : 118353920
+Site                       :
+Container                  :
+
+Name                       : firefox
+Id                         : 12508
+PriorityClass              : Idle
+FileVersion                : 81.0
+HandleCount                : 944
+WorkingSet                 : 638750720
+PagedMemorySize            : 848728064
+PrivateMemorySize          : 848728064
+VirtualMemorySize          : -134434816
+TotalProcessorTime         : 01:12:54.1875000
+SI                         : 1
+Handles                    : 944
+VM                         : 2207478755328
+WS                         : 638750720
+PM                         : 848728064
+NPM                        : 181720
+Path                       : C:\Users\Salmaan\AppData\Local\Mozilla Firefox\firefox.exe
+Company                    : Mozilla Corporation
+CPU                        : 4374.1875
+ProductVersion             : 81.0
+Description                : Firefox
+Product                    : Firefox
+__NounName                 : Process
+BasePriority               : 4
+ExitCode                   :
+HasExited                  : False
+ExitTime                   :
+Handle                     : 3828
+SafeHandle                 : Microsoft.Win32.SafeHandles.SafeProcessHandle
+MachineName                : .
+MainWindowHandle           : 0
+MainWindowTitle            :
+MainModule                 : System.Diagnostics.ProcessModule (firefox.exe)
+MaxWorkingSet              : 1413120
+MinWorkingSet              : 204800
+Modules                    : {System.Diagnostics.ProcessModule (firefox.exe), System.Diagnostics.ProcessModule (ntdll.dll), System.Diagnostics.ProcessModule
+                             (KERNEL32.DLL), System.Diagnostics.ProcessModule (KERNELBASE.dll)...}
+NonpagedSystemMemorySize   : 181720
+NonpagedSystemMemorySize64 : 181720
+PagedMemorySize64          : 848728064
+PagedSystemMemorySize      : 1455352
+PagedSystemMemorySize64    : 1455352
+PeakPagedMemorySize        : 1172733952
+PeakPagedMemorySize64      : 1172733952
+PeakWorkingSet             : 1192521728
+PeakWorkingSet64           : 1192521728
+PeakVirtualMemorySize      : 267091968
+PeakVirtualMemorySize64    : 2207880282112
+PriorityBoostEnabled       : True
+PrivateMemorySize64        : 848728064
+PrivilegedProcessorTime    : 00:10:40.3281250
+ProcessName                : firefox
+ProcessorAffinity          : 4095
+Responding                 : True
+SessionId                  : 1
+StartInfo                  : System.Diagnostics.ProcessStartInfo
+StartTime                  : 29-09-2020 22:59:12
+SynchronizingObject        :
+Threads                    : {13268, 11892, 10152, 1900...}
+UserProcessorTime          : 01:02:13.8593750
+VirtualMemorySize64        : 2207478755328
+EnableRaisingEvents        : False
+StandardInput              :
+StandardOutput             :
+StandardError              :
+WorkingSet64               : 638750720
+Site                       :
+Container                  :
+
+Name                       : firefox
+Id                         : 12932
+PriorityClass              : Normal
+FileVersion                : 81.0
+HandleCount                : 498
+WorkingSet                 : 139493376
+PagedMemorySize            : 171499520
+PrivateMemorySize          : 171499520
+VirtualMemorySize          : -1316061184
+TotalProcessorTime         : 00:06:21.0625000
+SI                         : 1
+Handles                    : 498
+VM                         : 2206297128960
+WS                         : 139493376
+PM                         : 171499520
+NPM                        : 86912
+Path                       : C:\Users\Salmaan\AppData\Local\Mozilla Firefox\firefox.exe
+Company                    : Mozilla Corporation
+CPU                        : 381.0625
+ProductVersion             : 81.0
+Description                : Firefox
+Product                    : Firefox
+__NounName                 : Process
+BasePriority               : 8
+ExitCode                   :
+HasExited                  : False
+ExitTime                   :
+Handle                     : 3052
+SafeHandle                 : Microsoft.Win32.SafeHandles.SafeProcessHandle
+MachineName                : .
+MainWindowHandle           : 0
+MainWindowTitle            :
+MainModule                 : System.Diagnostics.ProcessModule (firefox.exe)
+MaxWorkingSet              : 1413120
+MinWorkingSet              : 204800
+Modules                    : {System.Diagnostics.ProcessModule (firefox.exe), System.Diagnostics.ProcessModule (ntdll.dll), System.Diagnostics.ProcessModule
+                             (KERNEL32.DLL), System.Diagnostics.ProcessModule (KERNELBASE.dll)...}
+NonpagedSystemMemorySize   : 86912
+NonpagedSystemMemorySize64 : 86912
+PagedMemorySize64          : 171499520
+PagedSystemMemorySize      : 686744
+PagedSystemMemorySize64    : 686744
+PeakPagedMemorySize        : 449331200
+PeakPagedMemorySize64      : 449331200
+PeakWorkingSet             : 344502272
+PeakWorkingSet64           : 344502272
+PeakVirtualMemorySize      : -1238773760
+PeakVirtualMemorySize64    : 2206374416384
+PriorityBoostEnabled       : True
+PrivateMemorySize64        : 171499520
+PrivilegedProcessorTime    : 00:00:58.6875000
+ProcessName                : firefox
+ProcessorAffinity          : 4095
+Responding                 : True
+SessionId                  : 1
+StartInfo                  : System.Diagnostics.ProcessStartInfo
+StartTime                  : 29-09-2020 22:59:07
+SynchronizingObject        :
+Threads                    : {12936, 12956, 12960, 12964...}
+UserProcessorTime          : 00:05:22.3750000
+VirtualMemorySize64        : 2206297128960
+EnableRaisingEvents        : False
+StandardInput              :
+StandardOutput             :
+StandardError              :
+WorkingSet64               : 139493376
+Site                       :
+Container                  :
+
+Name                       : firefox
+Id                         : 13288
+PriorityClass              : Idle
+FileVersion                : 81.0
+HandleCount                : 917
+WorkingSet                 : 629563392
+PagedMemorySize            : 834396160
+PrivateMemorySize          : 834396160
+VirtualMemorySize          : -274087936
+TotalProcessorTime         : 01:17:30.9062500
+SI                         : 1
+Handles                    : 917
+VM                         : 2207339102208
+WS                         : 629563392
+PM                         : 834396160
+NPM                        : 154664
+Path                       : C:\Users\Salmaan\AppData\Local\Mozilla Firefox\firefox.exe
+Company                    : Mozilla Corporation
+CPU                        : 4650.90625
+ProductVersion             : 81.0
+Description                : Firefox
+Product                    : Firefox
+__NounName                 : Process
+BasePriority               : 4
+ExitCode                   :
+HasExited                  : False
+ExitTime                   :
+Handle                     : 3160
+SafeHandle                 : Microsoft.Win32.SafeHandles.SafeProcessHandle
+MachineName                : .
+MainWindowHandle           : 0
+MainWindowTitle            :
+MainModule                 : System.Diagnostics.ProcessModule (firefox.exe)
+MaxWorkingSet              : 1413120
+MinWorkingSet              : 204800
+Modules                    : {System.Diagnostics.ProcessModule (firefox.exe), System.Diagnostics.ProcessModule (ntdll.dll), System.Diagnostics.ProcessModule
+                             (KERNEL32.DLL), System.Diagnostics.ProcessModule (KERNELBASE.dll)...}
+NonpagedSystemMemorySize   : 154664
+NonpagedSystemMemorySize64 : 154664
+PagedMemorySize64          : 834396160
+PagedSystemMemorySize      : 1448960
+PagedSystemMemorySize64    : 1448960
+PeakPagedMemorySize        : 906055680
+PeakPagedMemorySize64      : 906055680
+PeakWorkingSet             : 908529664
+PeakWorkingSet64           : 908529664
+PeakVirtualMemorySize      : -38400000
+PeakVirtualMemorySize64    : 2207574790144
+PriorityBoostEnabled       : True
+PrivateMemorySize64        : 834396160
+PrivilegedProcessorTime    : 00:11:20.1875000
+ProcessName                : firefox
+ProcessorAffinity          : 4095
+Responding                 : True
+SessionId                  : 1
+StartInfo                  : System.Diagnostics.ProcessStartInfo
+StartTime                  : 29-09-2020 22:59:53
+SynchronizingObject        :
+Threads                    : {13436, 13276, 14580, 8508...}
+UserProcessorTime          : 01:06:10.7187500
+VirtualMemorySize64        : 2207339102208
+EnableRaisingEvents        : False
+StandardInput              :
+StandardOutput             :
+StandardError              :
+WorkingSet64               : 629563392
+Site                       :
+Container                  :
+
+Name                       : firefox
+Id                         : 16252
+PriorityClass              : Normal
+FileVersion                : 81.0
+HandleCount                : 866
+WorkingSet                 : 727859200
+PagedMemorySize            : 1023090688
+PrivateMemorySize          : 1023090688
+VirtualMemorySize          : -40419328
+TotalProcessorTime         : 01:07:49.1250000
+SI                         : 1
+Handles                    : 866
+VM                         : 2207572770816
+WS                         : 727859200
+PM                         : 1023090688
+NPM                        : 168640
+Path                       : C:\Users\Salmaan\AppData\Local\Mozilla Firefox\firefox.exe
+Company                    : Mozilla Corporation
+CPU                        : 4069.125
+ProductVersion             : 81.0
+Description                : Firefox
+Product                    : Firefox
+__NounName                 : Process
+BasePriority               : 8
+ExitCode                   :
+HasExited                  : False
+ExitTime                   :
+Handle                     : 1496
+SafeHandle                 : Microsoft.Win32.SafeHandles.SafeProcessHandle
+MachineName                : .
+MainWindowHandle           : 0
+MainWindowTitle            :
+MainModule                 : System.Diagnostics.ProcessModule (firefox.exe)
+MaxWorkingSet              : 1413120
+MinWorkingSet              : 204800
+Modules                    : {System.Diagnostics.ProcessModule (firefox.exe), System.Diagnostics.ProcessModule (ntdll.dll), System.Diagnostics.ProcessModule
+                             (KERNEL32.DLL), System.Diagnostics.ProcessModule (KERNELBASE.dll)...}
+NonpagedSystemMemorySize   : 168640
+NonpagedSystemMemorySize64 : 168640
+PagedMemorySize64          : 1023090688
+PagedSystemMemorySize      : 1437520
+PagedSystemMemorySize64    : 1437520
+PeakPagedMemorySize        : 1079066624
+PeakPagedMemorySize64      : 1079066624
+PeakWorkingSet             : 1116475392
+PeakWorkingSet64           : 1116475392
+PeakVirtualMemorySize      : 116465664
+PeakVirtualMemorySize64    : 2207729655808
+PriorityBoostEnabled       : True
+PrivateMemorySize64        : 1023090688
+PrivilegedProcessorTime    : 00:08:24.8437500
+ProcessName                : firefox
+ProcessorAffinity          : 4095
+Responding                 : True
+SessionId                  : 1
+StartInfo                  : System.Diagnostics.ProcessStartInfo
+StartTime                  : 29-09-2020 23:04:06
+SynchronizingObject        :
+Threads                    : {15640, 16160, 6944, 15920...}
+UserProcessorTime          : 00:59:24.2968750
+VirtualMemorySize64        : 2207572770816
+EnableRaisingEvents        : False
+StandardInput              :
+StandardOutput             :
+StandardError              :
+WorkingSet64               : 727859200
+Site                       :
+Container                  :
+
+Name                       : firefox
+Id                         : 16788
+PriorityClass              : Idle
+FileVersion                : 81.0
+HandleCount                : 917
+WorkingSet                 : 302837760
+PagedMemorySize            : 422359040
+PrivateMemorySize          : 422359040
+VirtualMemorySize          : -631902208
+TotalProcessorTime         : 00:27:34
+SI                         : 1
+Handles                    : 917
+VM                         : 2206981287936
+WS                         : 302837760
+PM                         : 422359040
+NPM                        : 135864
+Path                       : C:\Users\Salmaan\AppData\Local\Mozilla Firefox\firefox.exe
+Company                    : Mozilla Corporation
+CPU                        : 1654
+ProductVersion             : 81.0
+Description                : Firefox
+Product                    : Firefox
+__NounName                 : Process
+BasePriority               : 4
+ExitCode                   :
+HasExited                  : False
+ExitTime                   :
+Handle                     : 3436
+SafeHandle                 : Microsoft.Win32.SafeHandles.SafeProcessHandle
+MachineName                : .
+MainWindowHandle           : 0
+MainWindowTitle            :
+MainModule                 : System.Diagnostics.ProcessModule (firefox.exe)
+MaxWorkingSet              : 1413120
+MinWorkingSet              : 204800
+Modules                    : {System.Diagnostics.ProcessModule (firefox.exe), System.Diagnostics.ProcessModule (ntdll.dll), System.Diagnostics.ProcessModule
+                             (KERNEL32.DLL), System.Diagnostics.ProcessModule (KERNELBASE.dll)...}
+NonpagedSystemMemorySize   : 135864
+NonpagedSystemMemorySize64 : 135864
+PagedMemorySize64          : 422359040
+PagedSystemMemorySize      : 1285816
+PagedSystemMemorySize64    : 1285816
+PeakPagedMemorySize        : 588947456
+PeakPagedMemorySize64      : 588947456
+PeakWorkingSet             : 578412544
+PeakWorkingSet64           : 578412544
+PeakVirtualMemorySize      : -546271232
+PeakVirtualMemorySize64    : 2207066918912
+PriorityBoostEnabled       : True
+PrivateMemorySize64        : 422359040
+PrivilegedProcessorTime    : 00:05:20.9375000
+ProcessName                : firefox
+ProcessorAffinity          : 4095
+Responding                 : True
+SessionId                  : 1
+StartInfo                  : System.Diagnostics.ProcessStartInfo
+StartTime                  : 30-09-2020 10:08:23
+SynchronizingObject        :
+Threads                    : {7704, 16980, 5348, 17748...}
+UserProcessorTime          : 00:22:13.0625000
+VirtualMemorySize64        : 2206981287936
+EnableRaisingEvents        : False
+StandardInput              :
+StandardOutput             :
+StandardError              :
+WorkingSet64               : 302837760
+Site                       :
+Container                  :
+
+Name                       : firefox
+Id                         : 17436
+PriorityClass              : Idle
+FileVersion                : 81.0
+HandleCount                : 910
+WorkingSet                 : 491106304
+PagedMemorySize            : 806064128
+PrivateMemorySize          : 806064128
+VirtualMemorySize          : 24477696
+TotalProcessorTime         : 03:59:35.4843750
+SI                         : 1
+Handles                    : 910
+VM                         : 2207637667840
+WS                         : 491106304
+PM                         : 806064128
+NPM                        : 210640
+Path                       : C:\Users\Salmaan\AppData\Local\Mozilla Firefox\firefox.exe
+Company                    : Mozilla Corporation
+CPU                        : 14375.484375
+ProductVersion             : 81.0
+Description                : Firefox
+Product                    : Firefox
+__NounName                 : Process
+BasePriority               : 4
+ExitCode                   :
+HasExited                  : False
+ExitTime                   :
+Handle                     : 772
+SafeHandle                 : Microsoft.Win32.SafeHandles.SafeProcessHandle
+MachineName                : .
+MainWindowHandle           : 0
+MainWindowTitle            :
+MainModule                 : System.Diagnostics.ProcessModule (firefox.exe)
+MaxWorkingSet              : 1413120
+MinWorkingSet              : 204800
+Modules                    : {System.Diagnostics.ProcessModule (firefox.exe), System.Diagnostics.ProcessModule (ntdll.dll), System.Diagnostics.ProcessModule
+                             (KERNEL32.DLL), System.Diagnostics.ProcessModule (KERNELBASE.dll)...}
+NonpagedSystemMemorySize   : 210640
+NonpagedSystemMemorySize64 : 210640
+PagedMemorySize64          : 806064128
+PagedSystemMemorySize      : 1520512
+PagedSystemMemorySize64    : 1520512
+PeakPagedMemorySize        : 1362309120
+PeakPagedMemorySize64      : 1362309120
+PeakWorkingSet             : 1187594240
+PeakWorkingSet64           : 1187594240
+PeakVirtualMemorySize      : 277688320
+PeakVirtualMemorySize64    : 2207890878464
+PriorityBoostEnabled       : True
+PrivateMemorySize64        : 806064128
+PrivilegedProcessorTime    : 00:45:40.8906250
+ProcessName                : firefox
+ProcessorAffinity          : 4095
+Responding                 : True
+SessionId                  : 1
+StartInfo                  : System.Diagnostics.ProcessStartInfo
+StartTime                  : 30-09-2020 10:07:34
+SynchronizingObject        :
+Threads                    : {16972, 18196, 17344, 18044...}
+UserProcessorTime          : 03:13:54.5937500
+VirtualMemorySize64        : 2207637667840
+EnableRaisingEvents        : False
+StandardInput              :
+StandardOutput             :
+StandardError              :
+WorkingSet64               : 491106304
+Site                       :
+Container                  :
+
+
+
+PS C:\Users\Salmaan> get-command -noun s*
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           Disable-StorageDiagnosticLog                       2.0.0.0    Storage
+Alias           Enable-StorageDiagnosticLog                        2.0.0.0    Storage
+Alias           Get-StorageEnclosureSNV                            2.0.0.0    Storage
+Alias           Move-SmbClient                                     2.0.0.0    SmbWitness
+Function        Add-StorageFaultDomain                             2.0.0.0    Storage
+Function        Block-SmbShareAccess                               2.0.0.0    SmbShare
+Function        Clear-StorageBusDisk                               1.0.0.0    StorageBusCache
+Function        Clear-StorageDiagnosticInfo                        2.0.0.0    Storage
+Function        Close-SmbOpenFile                                  2.0.0.0    SmbShare
+Function        Close-SmbSession                                   2.0.0.0    SmbShare
+Function        ConvertFrom-SddlString                             3.1.0.0    Microsoft.PowerShell.Utility
+Function        Debug-StorageSubSystem                             2.0.0.0    Storage
+Function        Disable-ScheduledTask                              1.0.0.0    ScheduledTasks
+Function        Disable-SmbDelegation                              2.0.0.0    SmbShare
+Function        Disable-StorageBusCache                            1.0.0.0    StorageBusCache
+Function        Disable-StorageBusDisk                             1.0.0.0    StorageBusCache
+Function        Disable-StorageEnclosureIdentification             2.0.0.0    Storage
+Function        Disable-StorageEnclosurePower                      2.0.0.0    Storage
+Function        Disable-StorageHighAvailability                    2.0.0.0    Storage
+Function        Disable-StorageMaintenanceMode                     2.0.0.0    Storage
+Function        Enable-ScheduledTask                               1.0.0.0    ScheduledTasks
+Function        Enable-SmbDelegation                               2.0.0.0    SmbShare
+Function        Enable-StorageBusCache                             1.0.0.0    StorageBusCache
+Function        Enable-StorageBusDisk                              1.0.0.0    StorageBusCache
+Function        Enable-StorageEnclosureIdentification              2.0.0.0    Storage
+Function        Enable-StorageEnclosurePower                       2.0.0.0    Storage
+Function        Enable-StorageHighAvailability                     2.0.0.0    Storage
+Function        Enable-StorageMaintenanceMode                      2.0.0.0    Storage
+Function        Export-ScheduledTask                               1.0.0.0    ScheduledTasks
+Function        Find-Script                                        1.0.0.1    PowerShellGet
+Function        Get-ScheduledTask                                  1.0.0.0    ScheduledTasks
+Function        Get-ScheduledTaskInfo                              1.0.0.0    ScheduledTasks
+Function        Get-SmbBandWidthLimit                              2.0.0.0    SmbShare
+Function        Get-SmbClientConfiguration                         2.0.0.0    SmbShare
+Function        Get-SmbClientNetworkInterface                      2.0.0.0    SmbShare
+Function        Get-SmbConnection                                  2.0.0.0    SmbShare
+Function        Get-SmbDelegation                                  2.0.0.0    SmbShare
+Function        Get-SmbGlobalMapping                               2.0.0.0    SmbShare
+Function        Get-SmbMapping                                     2.0.0.0    SmbShare
+Function        Get-SmbMultichannelConnection                      2.0.0.0    SmbShare
+Function        Get-SmbMultichannelConstraint                      2.0.0.0    SmbShare
+Function        Get-SmbOpenFile                                    2.0.0.0    SmbShare
+Function        Get-SmbServerConfiguration                         2.0.0.0    SmbShare
+Function        Get-SmbServerNetworkInterface                      2.0.0.0    SmbShare
+Function        Get-SmbSession                                     2.0.0.0    SmbShare
+Function        Get-SmbShare                                       2.0.0.0    SmbShare
+Function        Get-SmbShareAccess                                 2.0.0.0    SmbShare
+Function        Get-SmbWitnessClient                               2.0.0.0    SmbWitness
+Function        Get-StartApps                                      1.0.0.0    StartLayout
+Function        Get-StorageAdvancedProperty                        2.0.0.0    Storage
+Function        Get-StorageBusBinding                              1.0.0.0    StorageBusCache
+Function        Get-StorageBusDisk                                 1.0.0.0    StorageBusCache
+Function        Get-StorageChassis                                 2.0.0.0    Storage
+Function        Get-StorageDiagnosticInfo                          2.0.0.0    Storage
+Function        Get-StorageEnclosure                               2.0.0.0    Storage
+Function        Get-StorageEnclosureStorageNodeView                2.0.0.0    Storage
+Function        Get-StorageEnclosureVendorData                     2.0.0.0    Storage
+Function        Get-StorageExtendedStatus                          2.0.0.0    Storage
+Function        Get-StorageFaultDomain                             2.0.0.0    Storage
+Function        Get-StorageFileServer                              2.0.0.0    Storage
+Function        Get-StorageFirmwareInformation                     2.0.0.0    Storage
+Function        Get-StorageHealthAction                            2.0.0.0    Storage
+Function        Get-StorageHealthReport                            2.0.0.0    Storage
+Function        Get-StorageHealthSetting                           2.0.0.0    Storage
+Function        Get-StorageHistory                                 2.0.0.0    Storage
+Function        Get-StorageJob                                     2.0.0.0    Storage
+Function        Get-StorageNode                                    2.0.0.0    Storage
+Function        Get-StoragePool                                    2.0.0.0    Storage
+Function        Get-StorageProvider                                2.0.0.0    Storage
+Function        Get-StorageRack                                    2.0.0.0    Storage
+Function        Get-StorageReliabilityCounter                      2.0.0.0    Storage
+Function        Get-StorageScaleUnit                               2.0.0.0    Storage
+Function        Get-StorageSetting                                 2.0.0.0    Storage
+Function        Get-StorageSite                                    2.0.0.0    Storage
+Function        Get-StorageSubSystem                               2.0.0.0    Storage
+Function        Get-StorageTier                                    2.0.0.0    Storage
+Function        Get-StorageTierSupportedSize                       2.0.0.0    Storage
+Function        Get-SupportedClusterSizes                          2.0.0.0    Storage
+Function        Get-SupportedFileSystems                           2.0.0.0    Storage
+Function        Grant-SmbShareAccess                               2.0.0.0    SmbShare
+Function        Install-Script                                     1.0.0.1    PowerShellGet
+Function        Move-SmbWitnessClient                              2.0.0.0    SmbWitness
+Function        New-ScheduledTask                                  1.0.0.0    ScheduledTasks
+Function        New-ScheduledTaskAction                            1.0.0.0    ScheduledTasks
+Function        New-ScheduledTaskPrincipal                         1.0.0.0    ScheduledTasks
+Function        New-ScheduledTaskSettingsSet                       1.0.0.0    ScheduledTasks
+Function        New-ScheduledTaskTrigger                           1.0.0.0    ScheduledTasks
+Function        New-ScriptFileInfo                                 1.0.0.1    PowerShellGet
+Function        New-SmbGlobalMapping                               2.0.0.0    SmbShare
+Function        New-SmbMapping                                     2.0.0.0    SmbShare
+Function        New-SmbMultichannelConstraint                      2.0.0.0    SmbShare
+Function        New-SmbShare                                       2.0.0.0    SmbShare
+Function        New-StorageBusBinding                              1.0.0.0    StorageBusCache
+Function        New-StorageBusCacheStore                           1.0.0.0    StorageBusCache
+Function        New-StorageFileServer                              2.0.0.0    Storage
+Function        New-StoragePool                                    2.0.0.0    Storage
+Function        New-StorageSubsystemVirtualDisk                    2.0.0.0    Storage
+Function        New-StorageTier                                    2.0.0.0    Storage
+Function        Optimize-StoragePool                               2.0.0.0    Storage
+Function        Publish-Script                                     1.0.0.1    PowerShellGet
+Function        Register-ScheduledTask                             1.0.0.0    ScheduledTasks
+Function        Register-StorageSubsystem                          2.0.0.0    Storage
+Function        Remove-SmbBandwidthLimit                           2.0.0.0    SmbShare
+Function        Remove-SMBComponent                                2.0.0.0    SmbShare
+Function        Remove-SmbGlobalMapping                            2.0.0.0    SmbShare
+Function        Remove-SmbMapping                                  2.0.0.0    SmbShare
+Function        Remove-SmbMultichannelConstraint                   2.0.0.0    SmbShare
+Function        Remove-SmbShare                                    2.0.0.0    SmbShare
+Function        Remove-StorageBusBinding                           1.0.0.0    StorageBusCache
+Function        Remove-StorageFaultDomain                          2.0.0.0    Storage
+Function        Remove-StorageFileServer                           2.0.0.0    Storage
+Function        Remove-StorageHealthIntent                         2.0.0.0    Storage
+Function        Remove-StorageHealthSetting                        2.0.0.0    Storage
+Function        Remove-StoragePool                                 2.0.0.0    Storage
+Function        Remove-StorageTier                                 2.0.0.0    Storage
+Function        Reset-StorageReliabilityCounter                    2.0.0.0    Storage
+Function        Resize-StorageTier                                 2.0.0.0    Storage
+Function        Resume-StorageBusDisk                              1.0.0.0    StorageBusCache
+Function        Revoke-SmbShareAccess                              2.0.0.0    SmbShare
+Function        Save-Script                                        1.0.0.1    PowerShellGet
+Function        Set-ScheduledTask                                  1.0.0.0    ScheduledTasks
+Function        Set-SmbBandwidthLimit                              2.0.0.0    SmbShare
+Function        Set-SmbClientConfiguration                         2.0.0.0    SmbShare
+Function        Set-SmbPathAcl                                     2.0.0.0    SmbShare
+Function        Set-SmbServerConfiguration                         2.0.0.0    SmbShare
+Function        Set-SmbShare                                       2.0.0.0    SmbShare
+Function        Set-StorageBusProfile                              1.0.0.0    StorageBusCache
+Function        Set-StorageFileServer                              2.0.0.0    Storage
+Function        Set-StorageHealthSetting                           2.0.0.0    Storage
+Function        Set-StoragePool                                    2.0.0.0    Storage
+Function        Set-StorageProvider                                2.0.0.0    Storage
+Function        Set-StorageSetting                                 2.0.0.0    Storage
+Function        Set-StorageSubSystem                               2.0.0.0    Storage
+Function        Set-StorageTier                                    2.0.0.0    Storage
+Function        Show-StorageHistory                                2.0.0.0    Storage
+Function        Start-ScheduledTask                                1.0.0.0    ScheduledTasks
+Function        Start-StorageDiagnosticLog                         2.0.0.0    Storage
+Function        Stop-ScheduledTask                                 1.0.0.0    ScheduledTasks
+Function        Stop-StorageDiagnosticLog                          2.0.0.0    Storage
+Function        Stop-StorageJob                                    2.0.0.0    Storage
+Function        Suspend-StorageBusDisk                             1.0.0.0    StorageBusCache
+Function        Test-ScriptFileInfo                                1.0.0.1    PowerShellGet
+Function        Unblock-SmbShareAccess                             2.0.0.0    SmbShare
+Function        Uninstall-Script                                   1.0.0.1    PowerShellGet
+Function        Unregister-ScheduledTask                           1.0.0.0    ScheduledTasks
+Function        Unregister-StorageSubsystem                        2.0.0.0    Storage
+Function        Update-Script                                      1.0.0.1    PowerShellGet
+Function        Update-ScriptFileInfo                              1.0.0.1    PowerShellGet
+Function        Update-SmbMultichannelConnection                   2.0.0.0    SmbShare
+Function        Update-StorageFirmware                             2.0.0.0    Storage
+Function        Update-StoragePool                                 2.0.0.0    Storage
+Function        Update-StorageProviderCache                        2.0.0.0    Storage
+Cmdlet          Confirm-SecureBootUEFI                             2.0.0.0    SecureBoot
+Cmdlet          ConvertFrom-SecureString                           3.0.0.0    Microsoft.PowerShell.Security
+Cmdlet          ConvertFrom-String                                 3.1.0.0    Microsoft.PowerShell.Utility
+Cmdlet          ConvertFrom-StringData                             3.1.0.0    Microsoft.PowerShell.Utility
+Cmdlet          Convert-String                                     3.1.0.0    Microsoft.PowerShell.Utility
+Cmdlet          ConvertTo-SecureString                             3.0.0.0    Microsoft.PowerShell.Security
+Cmdlet          Disable-ScheduledJob                               1.1.0.0    PSScheduledJob
+Cmdlet          Enable-ScheduledJob                                1.1.0.0    PSScheduledJob
+Cmdlet          Export-StartLayout                                 1.0.0.0    StartLayout
+Cmdlet          Export-StartLayoutEdgeAssets                       1.0.0.0    StartLayout
+Cmdlet          Format-SecureBootUEFI                              2.0.0.0    SecureBoot
+Cmdlet          Get-ScheduledJob                                   1.1.0.0    PSScheduledJob
+Cmdlet          Get-ScheduledJobOption                             1.1.0.0    PSScheduledJob
+Cmdlet          Get-SecureBootPolicy                               2.0.0.0    SecureBoot
+Cmdlet          Get-SecureBootUEFI                                 2.0.0.0    SecureBoot
+Cmdlet          Get-Service                                        3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Import-StartLayout                                 1.0.0.0    StartLayout
+Cmdlet          New-ScheduledJobOption                             1.1.0.0    PSScheduledJob
+Cmdlet          New-SelfSignedCertificate                          1.0.0.0    PKI
+Cmdlet          New-Service                                        3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Out-String                                         3.1.0.0    Microsoft.PowerShell.Utility
+Cmdlet          Register-ScheduledJob                              1.1.0.0    PSScheduledJob
+Cmdlet          Restart-Service                                    3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Resume-Service                                     3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Select-String                                      3.1.0.0    Microsoft.PowerShell.Utility
+Cmdlet          Set-ScheduledJob                                   1.1.0.0    PSScheduledJob
+Cmdlet          Set-ScheduledJobOption                             1.1.0.0    PSScheduledJob
+Cmdlet          Set-SecureBootUEFI                                 2.0.0.0    SecureBoot
+Cmdlet          Set-Service                                        3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Set-StrictMode                                     3.0.0.0    Microsoft.PowerShell.Core
+Cmdlet          Start-Service                                      3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Start-Sleep                                        3.1.0.0    Microsoft.PowerShell.Utility
+Cmdlet          Stop-Service                                       3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Suspend-Service                                    3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Unregister-ScheduledJob                            1.1.0.0    PSScheduledJob
+
+
+PS C:\Users\Salmaan> get-command -noun service
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Service                                        3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          New-Service                                        3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Restart-Service                                    3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Resume-Service                                     3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Set-Service                                        3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Start-Service                                      3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Stop-Service                                       3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Suspend-Service                                    3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\Users\Salmaan> get-service
+
+Status   Name               DisplayName
+------   ----               -----------
+Stopped  AarSvc_82eb4       Agent Activation Runtime_82eb4
+Stopped  AJRouter           AllJoyn Router Service
+Stopped  ALG                Application Layer Gateway Service
+Stopped  AppIDSvc           Application Identity
+Running  Appinfo            Application Information
+Stopped  AppReadiness       App Readiness
+Stopped  AppXSvc            AppX Deployment Service (AppXSVC)
+Running  AudioEndpointBu... Windows Audio Endpoint Builder
+Running  Audiosrv           Windows Audio
+Stopped  autotimesvc        Cellular Time
+Stopped  AxInstSV           ActiveX Installer (AxInstSV)
+Stopped  BcastDVRUserSer... GameDVR and Broadcast User Service_...
+Stopped  BDESVC             BitLocker Drive Encryption Service
+Stopped  BEService          BattlEye Service
+Running  BFE                Base Filtering Engine
+Running  BITS               Background Intelligent Transfer Ser...
+Running  BluetoothUserSe... Bluetooth User Support Service_82eb4
+Running  BrokerInfrastru... Background Tasks Infrastructure Ser...
+Running  BTAGService        Bluetooth Audio Gateway Service
+Running  BthAvctpSvc        AVCTP service
+Running  bthserv            Bluetooth Support Service
+Running  camsvc             Capability Access Manager Service
+Stopped  CaptureService_... CaptureService_82eb4
+Running  cbdhsvc_82eb4      Clipboard User Service_82eb4
+Running  CDPSvc             Connected Devices Platform Service
+Running  CDPUserSvc_82eb4   Connected Devices Platform User Ser...
+Stopped  CertPropSvc        Certificate Propagation
+Running  ClipSVC            Client License Service (ClipSVC)
+Stopped  COMSysApp          COM+ System Application
+Stopped  ConsentUxUserSv... ConsentUX_82eb4
+Running  CoreMessagingRe... CoreMessaging
+Running  cphs               Intel(R) Content Protection HECI Se...
+Running  cplspcon           Intel(R) Content Protection HDCP Se...
+Stopped  CredentialEnrol... CredentialEnrollmentManagerUserSvc_...
+Running  CryptSvc           Cryptographic Services
+Running  DcomLaunch         DCOM Server Process Launcher
+Stopped  defragsvc          Optimize drives
+Stopped  DeviceAssociati... DeviceAssociationBroker_82eb4
+Running  DeviceAssociati... Device Association Service
+Stopped  DeviceInstall      Device Install Service
+Stopped  DevicePickerUse... DevicePicker_82eb4
+Stopped  DevicesFlowUser... DevicesFlow_82eb4
+Stopped  DevQueryBroker     DevQuery Background Discovery Broker
+Running  Dhcp               DHCP Client
+Stopped  diagnosticshub.... Microsoft (R) Diagnostics Hub Stand...
+Stopped  diagsvc            Diagnostic Execution Service
+Running  DiagTrack          Connected User Experiences and Tele...
+Running  DispBrokerDeskt... Display Policy Service
+Running  DisplayEnhancem... Display Enhancement Service
+Stopped  DmEnrollmentSvc    Device Management Enrollment Service
+Stopped  dmwappushservice   Device Management Wireless Applicat...
+Running  Dnscache           DNS Client
+Running  DolbyDAXAPI        Dolby DAX API Service
+Running  DoSvc              Delivery Optimization
+Stopped  dot3svc            Wired AutoConfig
+Running  DPS                Diagnostic Policy Service
+Stopped  DsmSvc             Device Setup Manager
+Running  DsSvc              Data Sharing Service
+Running  DusmSvc            Data Usage
+Stopped  Eaphost            Extensible Authentication Protocol
+Stopped  edgeupdate         Microsoft Edge Update Service (edge...
+Stopped  edgeupdatem        Microsoft Edge Update Service (edge...
+Stopped  EFS                Encrypting File System (EFS)
+Stopped  embeddedmode       Embedded Mode
+Stopped  EntAppSvc          Enterprise App Management Service
+Running  esifsvc            Intel(R) Dynamic Platform and Therm...
+Running  EventLog           Windows Event Log
+Running  EventSystem        COM+ Event System
+Stopped  Fax                Fax
+Running  fdPHost            Function Discovery Provider Host
+Running  FDResPub           Function Discovery Resource Publica...
+Stopped  fhsvc              File History Service
+Running  FMAPOService       Fortemedia APO Control Service
+Running  FontCache          Windows Font Cache Service
+Running  FontCache3.0.0.0   Windows Presentation Foundation Fon...
+Running  FrameServer        Windows Camera Frame Server
+Stopped  GoogleChromeEle... Google Chrome Elevation Service (Go...
+Stopped  gpsvc              Group Policy Client
+Stopped  GraphicsPerfSvc    GraphicsPerfSvc
+Stopped  gupdate            Google Update Service (gupdate)
+Stopped  gupdatem           Google Update Service (gupdatem)
+Running  hidserv            Human Interface Device Service
+Stopped  HvHost             HV Host Service
+Stopped  iaStorAfsService   Intel(R) Optane(TM) Memory Service
+Stopped  icssvc             Windows Mobile Hotspot Service
+Running  igfxCUIService2... Intel(R) HD Graphics Control Panel ...
+Running  IKEEXT             IKE and AuthIP IPsec Keying Modules
+Running  ImControllerSer... System Interface Foundation Service
+Running  InstallService     Microsoft Store Install Service
+Stopped  Intel(R) Capabi... Intel(R) Capability Licensing Servi...
+Stopped  Intel(R) TPM Pr... Intel(R) TPM Provisioning Service
+Running  iphlpsvc           IP Helper
+Stopped  IpxlatCfgSvc       IP Translation Configuration Service
+Running  jhi_service        Intel(R) Dynamic Application Loader...
+Running  KeyIso             CNG Key Isolation
+Stopped  KtmRm              KtmRm for Distributed Transaction C...
+Running  LanmanServer       Server
+Running  LanmanWorkstation  Workstation
+Running  LenovoVantageSe... LenovoVantageService
+Running  lfsvc              Geolocation Service
+Running  LicenseManager     Windows License Manager Service
+Stopped  lltdsvc            Link-Layer Topology Discovery Mapper
+Running  lmhosts            TCP/IP NetBIOS Helper
+Running  LSM                Local Session Manager
+Stopped  LxpSvc             Language Experience Service
+Stopped  MapsBroker         Downloaded Maps Manager
+Stopped  McSecDashboardS... McSecDashboardService
+Stopped  MessagingServic... MessagingService_82eb4
+Stopped  MicrosoftEdgeEl... Microsoft Edge Elevation Service
+Stopped  MixedRealityOpe... Windows Mixed Reality OpenXR Service
+Running  mpssvc             Windows Defender Firewall
+Stopped  MSDTC              Distributed Transaction Coordinator
+Stopped  MSiSCSI            Microsoft iSCSI Initiator Service
+Stopped  msiserver          Windows Installer
+Stopped  NaturalAuthenti... Natural Authentication
+Stopped  NcaSvc             Network Connectivity Assistant
+Running  NcbService         Network Connection Broker
+Stopped  NcdAutoSetup       Network Connected Devices Auto-Setup
+Stopped  Netlogon           Netlogon
+Stopped  Netman             Network Connections
+Running  netprofm           Network List Service
+Stopped  NetSetupSvc        Network Setup Service
+Stopped  NetTcpPortSharing  Net.Tcp Port Sharing Service
+Stopped  NgcCtnrSvc         Microsoft Passport Container
+Stopped  NgcSvc             Microsoft Passport
+Running  NlaSvc             Network Location Awareness
+Running  nsi                Network Store Interface Service
+Stopped  NvContainerLoca... NVIDIA LocalSystem Container
+Stopped  NvContainerNetw... NVIDIA NetworkService Container
+Running  NVDisplay.Conta... NVIDIA Display Container LS
+Running  NvTelemetryCont... NVIDIA Telemetry Container
+Running  OneSyncSvc_82eb4   Sync Host_82eb4
+Stopped  p2pimsvc           Peer Networking Identity Manager
+Stopped  p2psvc             Peer Networking Grouping
+Running  PcaSvc             Program Compatibility Assistant Ser...
+Stopped  perceptionsimul... Windows Perception Simulation Service
+Stopped  PerfHost           Performance Counter DLL Host
+Running  PhoneSvc           Phone Service
+Running  PimIndexMainten... Contact Data_82eb4
+Stopped  pla                Performance Logs & Alerts
+Running  PlugPlay           Plug and Play
+Stopped  PNRPAutoReg        PNRP Machine Name Publication Service
+Stopped  PNRPsvc            Peer Name Resolution Protocol
+Stopped  PolicyAgent        IPsec Policy Agent
+Running  Power              Power
+Stopped  PrintNotify        Printer Extensions and Notifications
+Stopped  PrintWorkflowUs... PrintWorkflow_82eb4
+Running  ProfSvc            User Profile Service
+Stopped  PushToInstall      Windows PushToInstall Service
+Stopped  QWAVE              Quality Windows Audio Video Experience
+Stopped  RasAuto            Remote Access Auto Connection Manager
+Running  RasMan             Remote Access Connection Manager
+Stopped  RemoteAccess       Routing and Remote Access
+Stopped  RemoteRegistry     Remote Registry
+Stopped  RetailDemo         Retail Demo Service
+Running  RmSvc              Radio Management Service
+Running  RpcEptMapper       RPC Endpoint Mapper
+Stopped  RpcLocator         Remote Procedure Call (RPC) Locator
+Running  RpcSs              Remote Procedure Call (RPC)
+Running  RstMwService       Intel(R) Storage Middleware Service
+Running  RtkAudioUnivers... Realtek Audio Universal Service
+Running  RtkBtManServ       Realtek Bluetooth Device Manager Se...
+Running  SamSs              Security Accounts Manager
+Stopped  SCardSvr           Smart Card
+Stopped  ScDeviceEnum       Smart Card Device Enumeration Service
+Running  Schedule           Task Scheduler
+Stopped  SCPolicySvc        Smart Card Removal Policy
+Stopped  SDRSVC             Windows Backup
+Stopped  seclogon           Secondary Logon
+Running  SecurityHealthS... Windows Security Service
+Running  SEMgrSvc           Payments and NFC/SE Manager
+Running  SENS               System Event Notification Service
+Stopped  SensorDataService  Sensor Data Service
+Stopped  SensorService      Sensor Service
+Stopped  SensrSvc           Sensor Monitoring Service
+Stopped  SessionEnv         Remote Desktop Configuration
+Running  SgrmBroker         System Guard Runtime Monitor Broker
+Stopped  SharedAccess       Internet Connection Sharing (ICS)
+Stopped  SharedRealitySvc   Spatial Data Service
+Running  ShellHWDetection   Shell Hardware Detection
+Stopped  shpamsvc           Shared PC Account Manager
+Stopped  smphost            Microsoft Storage Spaces SMP
+Stopped  SmsRouter          Microsoft Windows SMS Router Service.
+Stopped  SNMPTRAP           SNMP Trap
+Stopped  spectrum           Windows Perception Service
+Running  Spooler            Print Spooler
+Stopped  sppsvc             Software Protection
+Running  SSDPSRV            SSDP Discovery
+Stopped  ssh-agent          OpenSSH Authentication Agent
+Running  SstpSvc            Secure Socket Tunneling Protocol Se...
+Running  StateRepository    State Repository Service
+Running  Steam Client Se... Steam Client Service
+Running  stisvc             Windows Image Acquisition (WIA)
+Running  StorSvc            Storage Service
+Stopped  svsvc              Spot Verifier
+Stopped  swprv              Microsoft Software Shadow Copy Prov...
+Running  SysMain            SysMain
+Running  SystemEventsBroker System Events Broker
+Running  TabletInputService Touch Keyboard and Handwriting Pane...
+Running  TapiSrv            Telephony
+Running  TeamViewer         TeamViewer
+Stopped  TermService        Remote Desktop Services
+Running  Themes             Themes
+Stopped  TieringEngineSe... Storage Tiers Management
+Running  TimeBrokerSvc      Time Broker
+Running  TokenBroker        Web Account Manager
+Running  TrkWks             Distributed Link Tracking Client
+Stopped  TroubleshootingSvc Recommended Troubleshooting Service
+Running  TrustedInstaller   Windows Modules Installer
+Stopped  tzautoupdate       Auto Time Zone Updater
+Stopped  uhssvc             Microsoft Update Health Service
+Stopped  UmRdpService       Remote Desktop Services UserMode Po...
+Running  UnistoreSvc_82eb4  User Data Storage_82eb4
+Stopped  upnphost           UPnP Device Host
+Running  UserDataSvc_82eb4  User Data Access_82eb4
+Running  UserManager        User Manager
+Running  UsoSvc             Update Orchestrator Service
+Stopped  VacSvc             Volumetric Audio Compositor Service
+Running  VaultSvc           Credential Manager
+Stopped  VBoxSDS            VirtualBox system service
+Stopped  vds                Virtual Disk
+Stopped  vmicguestinterface Hyper-V Guest Service Interface
+Stopped  vmicheartbeat      Hyper-V Heartbeat Service
+Stopped  vmickvpexchange    Hyper-V Data Exchange Service
+Stopped  vmicrdv            Hyper-V Remote Desktop Virtualizati...
+Stopped  vmicshutdown       Hyper-V Guest Shutdown Service
+Stopped  vmictimesync       Hyper-V Time Synchronization Service
+Stopped  vmicvmsession      Hyper-V PowerShell Direct Service
+Stopped  vmicvss            Hyper-V Volume Shadow Copy Requestor
+Stopped  VSS                Volume Shadow Copy
+Running  W32Time            Windows Time
+Stopped  WaaSMedicSvc       Windows Update Medic Service
+Stopped  WalletService      WalletService
+Stopped  WarpJITSvc         WarpJITSvc
+Stopped  wbengine           Block Level Backup Engine Service
+Running  WbioSrvc           Windows Biometric Service
+Running  WCAssistantService WC Assistant
+Running  Wcmsvc             Windows Connection Manager
+Stopped  wcncsvc            Windows Connect Now - Config Registrar
+Running  WdiServiceHost     Diagnostic Service Host
+Stopped  WdiSystemHost      Diagnostic System Host
+Running  WdNisSvc           Windows Defender Antivirus Network ...
+Stopped  WebClient          WebClient
+Stopped  WebexService       Cisco WebEx Update Service
+Stopped  Wecsvc             Windows Event Collector
+Stopped  WEPHOSTSVC         Windows Encryption Provider Host Se...
+Stopped  wercplsupport      Problem Reports and Solutions Contr...
+Stopped  WerSvc             Windows Error Reporting Service
+Stopped  WFDSConMgrSvc      Wi-Fi Direct Services Connection Ma...
+Stopped  WiaRpc             Still Image Acquisition Events
+Running  WinDefend          Windows Defender Antivirus Service
+Running  WinHttpAutoProx... WinHTTP Web Proxy Auto-Discovery Se...
+Running  Winmgmt            Windows Management Instrumentation
+Stopped  WinRM              Windows Remote Management (WS-Manag...
+Stopped  wisvc              Windows Insider Service
+Running  WlanSvc            WLAN AutoConfig
+Running  wlidsvc            Microsoft Account Sign-in Assistant
+Stopped  wlpasvc            Local Profile Assistant Service
+Stopped  WManSvc            Windows Management Service
+Stopped  wmiApSrv           WMI Performance Adapter
+Stopped  WMPNetworkSvc      Windows Media Player Network Sharin...
+Stopped  workfolderssvc     Work Folders
+Stopped  WpcMonSvc          Parental Controls
+Stopped  WPDBusEnum         Portable Device Enumerator Service
+Running  WpnService         Windows Push Notifications System S...
+Running  WpnUserService_... Windows Push Notifications User Ser...
+Running  wscsvc             Security Center
+Running  WSearch            Windows Search
+Running  wuauserv           Windows Update
+Stopped  WwanSvc            WWAN AutoConfig
+Stopped  XblAuthManager     Xbox Live Auth Manager
+Stopped  XblGameSave        Xbox Live Game Save
+Stopped  XboxGipSvc         Xbox Accessory Management Service
+Stopped  XboxNetApiSvc      Xbox Live Networking Service
+Running  YMC                YMC
+
+
+PS C:\Users\Salmaan> get-help get-service
+
+NAME
+    Get-Service
+
+SYNTAX
+    Get-Service [[-Name] <string[]>] [-ComputerName <string[]>] [-DependentServices] [-RequiredServices] [-Include <string[]>] [-Exclude <string[]>]
+    [<CommonParameters>]
+
+    Get-Service -DisplayName <string[]> [-ComputerName <string[]>] [-DependentServices] [-RequiredServices] [-Include <string[]>] [-Exclude <string[]>]
+    [<CommonParameters>]
+
+    Get-Service [-ComputerName <string[]>] [-DependentServices] [-RequiredServices] [-Include <string[]>] [-Exclude <string[]>] [-InputObject
+    <ServiceController[]>]  [<CommonParameters>]
+
+
+ALIASES
+    gsv
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Service -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113332.
+
+
+
+PS C:\Users\Salmaan> get-help get-service -examples
+
+NAME
+    Get-Service
+
+ALIASES
+    gsv
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Service -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113332.
+
+
+
+PS C:\Users\Salmaan> get-help get-service -online
+PS C:\Users\Salmaan> get-alias
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           % -> ForEach-Object
+Alias           ? -> Where-Object
+Alias           ac -> Add-Content
+Alias           asnp -> Add-PSSnapin
+Alias           cat -> Get-Content
+Alias           cd -> Set-Location
+Alias           CFS -> ConvertFrom-String                          3.1.0.0    Microsoft.PowerShell.Utility
+Alias           chdir -> Set-Location
+Alias           clc -> Clear-Content
+Alias           clear -> Clear-Host
+Alias           clhy -> Clear-History
+Alias           cli -> Clear-Item
+Alias           clp -> Clear-ItemProperty
+Alias           cls -> Clear-Host
+Alias           clv -> Clear-Variable
+Alias           cnsn -> Connect-PSSession
+Alias           compare -> Compare-Object
+Alias           copy -> Copy-Item
+Alias           cp -> Copy-Item
+Alias           cpi -> Copy-Item
+Alias           cpp -> Copy-ItemProperty
+Alias           curl -> Invoke-WebRequest
+Alias           cvpa -> Convert-Path
+Alias           dbp -> Disable-PSBreakpoint
+Alias           del -> Remove-Item
+Alias           diff -> Compare-Object
+Alias           dir -> Get-ChildItem
+Alias           dnsn -> Disconnect-PSSession
+Alias           ebp -> Enable-PSBreakpoint
+Alias           echo -> Write-Output
+Alias           epal -> Export-Alias
+Alias           epcsv -> Export-Csv
+Alias           epsn -> Export-PSSession
+Alias           erase -> Remove-Item
+Alias           etsn -> Enter-PSSession
+Alias           exsn -> Exit-PSSession
+Alias           fc -> Format-Custom
+Alias           fhx -> Format-Hex                                  3.1.0.0    Microsoft.PowerShell.Utility
+Alias           fl -> Format-List
+Alias           foreach -> ForEach-Object
+Alias           ft -> Format-Table
+Alias           fw -> Format-Wide
+Alias           gal -> Get-Alias
+Alias           gbp -> Get-PSBreakpoint
+Alias           gc -> Get-Content
+Alias           gcb -> Get-Clipboard                               3.1.0.0    Microsoft.PowerShell.Management
+Alias           gci -> Get-ChildItem
+Alias           gcm -> Get-Command
+Alias           gcs -> Get-PSCallStack
+Alias           gdr -> Get-PSDrive
+Alias           ghy -> Get-History
+Alias           gi -> Get-Item
+Alias           gin -> Get-ComputerInfo                            3.1.0.0    Microsoft.PowerShell.Management
+Alias           gjb -> Get-Job
+Alias           gl -> Get-Location
+Alias           gm -> Get-Member
+Alias           gmo -> Get-Module
+Alias           gp -> Get-ItemProperty
+Alias           gps -> Get-Process
+Alias           gpv -> Get-ItemPropertyValue
+Alias           group -> Group-Object
+Alias           gsn -> Get-PSSession
+Alias           gsnp -> Get-PSSnapin
+Alias           gsv -> Get-Service
+Alias           gtz -> Get-TimeZone                                3.1.0.0    Microsoft.PowerShell.Management
+Alias           gu -> Get-Unique
+Alias           gv -> Get-Variable
+Alias           gwmi -> Get-WmiObject
+Alias           h -> Get-History
+Alias           history -> Get-History
+Alias           icm -> Invoke-Command
+Alias           iex -> Invoke-Expression
+Alias           ihy -> Invoke-History
+Alias           ii -> Invoke-Item
+Alias           ipal -> Import-Alias
+Alias           ipcsv -> Import-Csv
+Alias           ipmo -> Import-Module
+Alias           ipsn -> Import-PSSession
+Alias           irm -> Invoke-RestMethod
+Alias           ise -> powershell_ise.exe
+Alias           iwmi -> Invoke-WmiMethod
+Alias           iwr -> Invoke-WebRequest
+Alias           kill -> Stop-Process
+Alias           lp -> Out-Printer
+Alias           ls -> Get-ChildItem
+Alias           man -> help
+Alias           md -> mkdir
+Alias           measure -> Measure-Object
+Alias           mi -> Move-Item
+Alias           mount -> New-PSDrive
+Alias           move -> Move-Item
+Alias           mp -> Move-ItemProperty
+Alias           mv -> Move-Item
+Alias           nal -> New-Alias
+Alias           ndr -> New-PSDrive
+Alias           ni -> New-Item
+Alias           nmo -> New-Module
+Alias           npssc -> New-PSSessionConfigurationFile
+Alias           nsn -> New-PSSession
+Alias           nv -> New-Variable
+Alias           ogv -> Out-GridView
+Alias           oh -> Out-Host
+Alias           popd -> Pop-Location
+Alias           ps -> Get-Process
+Alias           pushd -> Push-Location
+Alias           pwd -> Get-Location
+Alias           r -> Invoke-History
+Alias           rbp -> Remove-PSBreakpoint
+Alias           rcjb -> Receive-Job
+Alias           rcsn -> Receive-PSSession
+Alias           rd -> Remove-Item
+Alias           rdr -> Remove-PSDrive
+Alias           ren -> Rename-Item
+Alias           ri -> Remove-Item
+Alias           rjb -> Remove-Job
+Alias           rm -> Remove-Item
+Alias           rmdir -> Remove-Item
+Alias           rmo -> Remove-Module
+Alias           rni -> Rename-Item
+Alias           rnp -> Rename-ItemProperty
+Alias           rp -> Remove-ItemProperty
+Alias           rsn -> Remove-PSSession
+Alias           rsnp -> Remove-PSSnapin
+Alias           rujb -> Resume-Job
+Alias           rv -> Remove-Variable
+Alias           rvpa -> Resolve-Path
+Alias           rwmi -> Remove-WmiObject
+Alias           sajb -> Start-Job
+Alias           sal -> Set-Alias
+Alias           saps -> Start-Process
+Alias           sasv -> Start-Service
+Alias           sbp -> Set-PSBreakpoint
+Alias           sc -> Set-Content
+Alias           scb -> Set-Clipboard                               3.1.0.0    Microsoft.PowerShell.Management
+Alias           select -> Select-Object
+Alias           set -> Set-Variable
+Alias           shcm -> Show-Command
+Alias           si -> Set-Item
+Alias           sl -> Set-Location
+Alias           sleep -> Start-Sleep
+Alias           sls -> Select-String
+Alias           sort -> Sort-Object
+Alias           sp -> Set-ItemProperty
+Alias           spjb -> Stop-Job
+Alias           spps -> Stop-Process
+Alias           spsv -> Stop-Service
+Alias           start -> Start-Process
+Alias           stz -> Set-TimeZone                                3.1.0.0    Microsoft.PowerShell.Management
+Alias           sujb -> Suspend-Job
+Alias           sv -> Set-Variable
+Alias           swmi -> Set-WmiInstance
+Alias           tee -> Tee-Object
+Alias           trcm -> Trace-Command
+Alias           type -> Get-Content
+Alias           wget -> Invoke-WebRequest
+Alias           where -> Where-Object
+Alias           wjb -> Wait-Job
+Alias           write -> Write-Output
+
+
+PS C:\Users\Salmaan> get-timezone
+
+
+Id                         : India Standard Time
+DisplayName                : (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi
+StandardName               : India Standard Time
+DaylightName               : India Daylight Time
+BaseUtcOffset              : 05:30:00
+SupportsDaylightSavingTime : False
+
+
+
+PS C:\Users\Salmaan> where fifa20
+PS C:\Users\Salmaan> get-computerinfo
+
+
+WindowsBuildLabEx                                       : 18362.1.amd64fre.19h1_release.190318-1202
+WindowsCurrentVersion                                   : 6.3
+WindowsEditionId                                        : CoreSingleLanguage
+WindowsInstallationType                                 : Client
+WindowsInstallDateFromRegistry                          : 15-03-2020 14:01:56
+WindowsProductId                                        : 00327-35839-95951-AAOEM
+WindowsProductName                                      : Windows 10 Home Single Language
+WindowsRegisteredOrganization                           :
+WindowsRegisteredOwner                                  : Windows User
+WindowsSystemRoot                                       : C:\WINDOWS
+WindowsVersion                                          : 1909
+BiosCharacteristics                                     : {7, 11, 12, 15...}
+BiosBIOSVersion                                         : {LENOVO - 1, 8JCN52WW, INSYDE Corp. - 58032052}
+BiosBuildNumber                                         :
+BiosCaption                                             : 8JCN52WW
+BiosCodeSet                                             :
+BiosCurrentLanguage                                     : en|US|iso8859-1,0
+BiosDescription                                         : 8JCN52WW
+BiosEmbeddedControllerMajorVersion                      : 1
+BiosEmbeddedControllerMinorVersion                      : 52
+BiosFirmwareType                                        : Uefi
+BiosIdentificationCode                                  :
+BiosInstallableLanguages                                : 8
+BiosInstallDate                                         :
+BiosLanguageEdition                                     :
+BiosListOfLanguages                                     : {en|US|iso8859-1,0, fr|FR|iso8859-1,0, zh|TW|unicode,0, ja|JP|unicode,0...}
+BiosManufacturer                                        : LENOVO
+BiosName                                                : 8JCN52WW
+BiosOtherTargetOS                                       :
+BiosPrimaryBIOS                                         : True
+BiosReleaseDate                                         : 14-06-2019 5:30:00
+BiosSeralNumber                                         : PF1K7X5G
+BiosSMBIOSBIOSVersion                                   : 8JCN52WW
+BiosSMBIOSMajorVersion                                  : 3
+BiosSMBIOSMinorVersion                                  : 0
+BiosSMBIOSPresent                                       : True
+BiosSoftwareElementState                                : Running
+BiosStatus                                              : OK
+BiosSystemBiosMajorVersion                              : 1
+BiosSystemBiosMinorVersion                              : 52
+BiosTargetOperatingSystem                               : 0
+BiosVersion                                             : LENOVO - 1
+CsAdminPasswordStatus                                   : Disabled
+CsAutomaticManagedPagefile                              : True
+CsAutomaticResetBootOption                              : True
+CsAutomaticResetCapability                              : True
+CsBootOptionOnLimit                                     :
+CsBootOptionOnWatchDog                                  :
+CsBootROMSupported                                      : True
+CsBootStatus                                            : {0, 0, 0, 39...}
+CsBootupState                                           : Normal boot
+CsCaption                                               : LAPTOP-KCC94RI6
+CsChassisBootupState                                    : Safe
+CsChassisSKUNumber                                      : SKU Number
+CsCurrentTimeZone                                       : 330
+CsDaylightInEffect                                      :
+CsDescription                                           : AT/AT COMPATIBLE
+CsDNSHostName                                           : LAPTOP-KCC94RI6
+CsDomain                                                : WORKGROUP
+CsDomainRole                                            : StandaloneWorkstation
+CsEnableDaylightSavingsTime                             : True
+CsFrontPanelResetStatus                                 : Disabled
+CsHypervisorPresent                                     : False
+CsInfraredSupported                                     : False
+CsInitialLoadInfo                                       :
+CsInstallDate                                           :
+CsKeyboardPasswordStatus                                : Disabled
+CsLastLoadInfo                                          :
+CsManufacturer                                          : LENOVO
+CsModel                                                 : 81FV
+CsName                                                  : LAPTOP-KCC94RI6
+CsNetworkAdapters                                       : {Ethernet 2, Wi-Fi 2, Bluetooth Network Connection 2, VirtualBox Host-Only Network}
+CsNetworkServerModeEnabled                              : True
+CsNumberOfLogicalProcessors                             : 12
+CsNumberOfProcessors                                    : 1
+CsProcessors                                            : {Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz}
+CsOEMStringArray                                        : {OemString1, OemString2, OemString3}
+CsPartOfDomain                                          : False
+CsPauseAfterReset                                       : -1
+CsPCSystemType                                          : Mobile
+CsPCSystemTypeEx                                        : Mobile
+CsPowerManagementCapabilities                           :
+CsPowerManagementSupported                              :
+CsPowerOnPasswordStatus                                 : Disabled
+CsPowerState                                            : Unknown
+CsPowerSupplyState                                      : Safe
+CsPrimaryOwnerContact                                   :
+CsPrimaryOwnerName                                      : Windows User
+CsResetCapability                                       : Other
+CsResetCount                                            : -1
+CsResetLimit                                            : -1
+CsRoles                                                 : {LM_Workstation, LM_Server, NT}
+CsStatus                                                : OK
+CsSupportContactDescription                             :
+CsSystemFamily                                          : Legion Y530-15ICH
+CsSystemSKUNumber                                       : LENOVO_MT_81FV_BU_idea_FM_Legion Y530-15ICH
+CsSystemType                                            : x64-based PC
+CsThermalState                                          : Safe
+CsTotalPhysicalMemory                                   : 17047015424
+CsPhyicallyInstalledMemory                              : 16777216
+CsUserName                                              : LAPTOP-KCC94RI6\Salmaan
+CsWakeUpType                                            : PowerSwitch
+CsWorkgroup                                             : WORKGROUP
+OsName                                                  : Microsoft Windows 10 Home Single Language
+OsType                                                  : WINNT
+OsOperatingSystemSKU                                    : 100
+OsVersion                                               : 10.0.18363
+OsCSDVersion                                            :
+OsBuildNumber                                           : 18363
+OsHotFixes                                              : {KB4576484, KB4497165, KB4516115, KB4517245...}
+OsBootDevice                                            : \Device\HarddiskVolume3
+OsSystemDevice                                          : \Device\HarddiskVolume5
+OsSystemDirectory                                       : C:\WINDOWS\system32
+OsSystemDrive                                           : C:
+OsWindowsDirectory                                      : C:\WINDOWS
+OsCountryCode                                           : 1
+OsCurrentTimeZone                                       : 330
+OsLocaleID                                              : 0409
+OsLocale                                                : en-US
+OsLocalDateTime                                         : 05-10-2020 23:45:11
+OsLastBootUpTime                                        : 29-09-2020 22:57:51
+OsUptime                                                : 6.00:47:19.4870404
+OsBuildType                                             : Multiprocessor Free
+OsCodeSet                                               : 1252
+OsDataExecutionPreventionAvailable                      : True
+OsDataExecutionPrevention32BitApplications              : True
+OsDataExecutionPreventionDrivers                        : True
+OsDataExecutionPreventionSupportPolicy                  : OptIn
+OsDebug                                                 : False
+OsDistributed                                           : False
+OsEncryptionLevel                                       : 256
+OsForegroundApplicationBoost                            : Maximum
+OsTotalVisibleMemorySize                                : 16647476
+OsFreePhysicalMemory                                    : 6312044
+OsTotalVirtualMemorySize                                : 31851828
+OsFreeVirtualMemory                                     : 14040052
+OsInUseVirtualMemory                                    : 17811776
+OsTotalSwapSpaceSize                                    :
+OsSizeStoredInPagingFiles                               : 15204352
+OsFreeSpaceInPagingFiles                                : 14210024
+OsPagingFiles                                           : {D:\pagefile.sys}
+OsHardwareAbstractionLayer                              : 10.0.18362.752
+OsInstallDate                                           : 15-03-2020 19:31:56
+OsManufacturer                                          : Microsoft Corporation
+OsMaxNumberOfProcesses                                  : 4294967295
+OsMaxProcessMemorySize                                  : 137438953344
+OsMuiLanguages                                          : {en-US}
+OsNumberOfLicensedUsers                                 :
+OsNumberOfProcesses                                     : 215
+OsNumberOfUsers                                         : 2
+OsOrganization                                          :
+OsArchitecture                                          : 64-bit
+OsLanguage                                              : en-US
+OsProductSuites                                         : {TerminalServicesSingleSession, HomeEdition}
+OsOtherTypeDescription                                  :
+OsPAEEnabled                                            :
+OsPortableOperatingSystem                               : False
+OsPrimary                                               : True
+OsProductType                                           : WorkStation
+OsRegisteredUser                                        : Windows User
+OsSerialNumber                                          : 00327-35839-95951-AAOEM
+OsServicePackMajorVersion                               : 0
+OsServicePackMinorVersion                               : 0
+OsStatus                                                : OK
+OsSuites                                                : {TerminalServices, TerminalServicesSingleSession, HomeEdition}
+OsServerLevel                                           :
+KeyboardLayout                                          : en-IN
+TimeZone                                                : (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi
+LogonServer                                             : \\LAPTOP-KCC94RI6
+PowerPlatformRole                                       : Mobile
+HyperVisorPresent                                       : False
+HyperVRequirementDataExecutionPreventionAvailable       : True
+HyperVRequirementSecondLevelAddressTranslation          : True
+HyperVRequirementVirtualizationFirmwareEnabled          : True
+HyperVRequirementVMMonitorModeExtensions                : True
+DeviceGuardSmartStatus                                  : Off
+DeviceGuardRequiredSecurityProperties                   :
+DeviceGuardAvailableSecurityProperties                  :
+DeviceGuardSecurityServicesConfigured                   :
+DeviceGuardSecurityServicesRunning                      :
+DeviceGuardCodeIntegrityPolicyEnforcementStatus         :
+DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus :
+
+
+
+PS C:\Users\Salmaan> get-history
+
+  Id CommandLine
+  -- -----------
+   1 lz
+   2 ls
+   3 get-alias
+   4 get-processes
+   5 get-process
+   6 get-process -Name Firefox
+   7 get-process -name Firefox
+   8 get-process -name Firefox | get-member
+   9 Start-Transcript
+  10 get-process -name Firefox | select-object*
+  11 get-process -name Firefox | select-object *
+  12 get-command -noun s*
+  13 get-command -noun service
+  14 get-service
+  15 get-help get-service
+  16 get-help get-service -examples
+  17 get-help get-service -online
+  18 get-alias
+  19 get-timezone
+  20 where fifa20
+  21 get-computerinfo
+
+
